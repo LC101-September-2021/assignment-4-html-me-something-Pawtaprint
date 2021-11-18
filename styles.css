@@ -1,13 +1,15 @@
-/* Write your CSS here! */* {
+* {
     margin: 0;
-    padding: 0;
+    padding: 0rem;
     box-sizing: border-box;
     background-color: black;
+    color: whitesmoke;
+    margin-right: 2px;
 }
 
 .conatiner {
     width: 100%;
-    height: 100vh;
+    height: 100%;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed ;
@@ -23,11 +25,12 @@ nav {
     justify-content: space-between;
     align-items: center;
     background-color:black;
+    outline: 1px solid whitesmoke;
 }
 
 .logo {
     font-size: 1.5rem;
-    width: 50%;
+    width: 60%;
     align-items: center;
     font-family: frijole;
     color: whitesmoke;
@@ -36,8 +39,8 @@ nav {
 }
 
 .navbar-links {
-    width: 40%; 
-    
+    width: 60%; 
+    height: 100%;
 }
 
 ul {
@@ -64,6 +67,57 @@ li:hover {
     background-color: red;
 }
 img {
-    width: 100%;
+    width: 35%;
+    height: 100%;
     background-attachment: fixed;
+    outline-style: groove;
+}
+
+p {
+    font-size: 1.5rem;
+    margin: 1.5rem 0;
+    padding: 1rem;
+    text-align: left;
+    outline: 3px solid whitesmoke;
+    font-family: frijole;
+}
+
+h2 {
+    font-size: 1.5rem;
+    font-family: frijole;
+    color: red;
+}
+
+h3 {
+    font-size: 2.0rem;
+    font-family: frijole;
+    color: red;
+}
+
+h4 {
+    font-size: 2.0rem;
+    font-family: frijole;
+    color: red;
+}
+
+body {
+    margin-left: 8px;
+    display: BLOCK;
+}
+
+footer {
+    text-align: center;
+    font-size: 1.6rem;
+}
+
+h5 {
+    font-size: 2.0rem;
+    font-family: frijole;
+    color: red;
+}
+
+h6 {
+    font-size: 2.0rem;
+    font-family: frijole;
+    color: red;
 }
