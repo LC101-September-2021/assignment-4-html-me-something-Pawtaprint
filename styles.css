@@ -28,12 +28,12 @@ nav {
     outline: 1px solid whitesmoke;
 }
 
-.logo {
+#mainHeading {
     font-size: 1.5rem;
     width: 60%;
     align-items: center;
     font-family: frijole;
-    color: whitesmoke;
+    color: red
     
     
 }
@@ -101,8 +101,8 @@ h4 {
 }
 
 body {
-    margin-left: 8px;
-    display: BLOCK;
+    margin: 8px;
+    display: block;
 }
 
 footer {
@@ -120,4 +120,8 @@ h6 {
     font-size: 2.0rem;
     font-family: frijole;
     color: red;
+}
+
+.funParagraph{
+color:green;
 }

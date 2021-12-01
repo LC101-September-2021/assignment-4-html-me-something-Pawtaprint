@@ -63,7 +63,7 @@ describe ("Grading Tests: ", function () {
       expect(window.getComputedStyle(container.body).display).toEqual("block");
       expect(window.getComputedStyle(container.body).margin).toEqual("8px");
    })
-
+   
    it("CSS funParagraph class is green", function() {
       let funParagraphElement = container.getElementById("testP");
       expect(window.getComputedStyle(funParagraphElement).color).toEqual("green");
